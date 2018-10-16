@@ -1,0 +1,27 @@
+/* Three media querys for making paragrapgh text responsive.*/
+/* @media screen and (min-width: 991px) {
+    p.responsive-font {
+      font-size: 16px;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    p.responsive-font {
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    p.responsive-font {
+      font-size: 10px;
+    }
+  } */
+  p.responsive-font {
+    font-size: 16px;
+  }
+  p.font-16 {
+    font-size: 14px;
+  }
+  p.font-15 {
+    font-size: 16px;
+  }
+  /* Make a division disappear is screen size is less than 1400.*/
+ 

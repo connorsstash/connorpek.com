@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Web development services main page.">
+    <meta name="author" content="Connor Pekovic">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Connor</title>
+
+    <!--Local Bootstrap CSS cource code. -->
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" >
+    
+    <style>
+    .font-15 {
+        font-size: 17px;
+    }
+    .font-13 {
+        font-size: 13px;
+    }
+    .nav-font {
+        font-size: 20px;
+    }
+    ul {
+        margin-top: -.4rem;
+    }
+    li {
+        line-height: 1.5rem;
+    }
+    .neg-top-margin {
+        margin-top: -.25rem;
+    }
+    .panel-padding {
+        background-color: white;
+        margin-top:1em; 
+        padding: 1em;
+    }
+    .top-panel{
+        background-color: white;
+        padding:1em;
+    }
+    .con-nav {
+        background-color: #FFFFFF;
+        color: #E8E8E8;
+        border-bottom: 2px solid black;
+    }
+    .logo {
+        color:#0E6624;
+        padding-left: 7%;
+        margin-right: -30px;   
+    }
+    .con-body {
+        padding: 4em 0 3em 0;
+        padding-left: 7%;
+        padding-right: 7%;
+        background: radial-gradient(#B7FFC1, #FFFFFF);
+    }
+    .mrgn-l-r {
+        margin-left: 1.5em; 
+        margin-right: 1em;
+    }
+    .proj-imgs {
+        max-width: 100%; 
+        padding-bottom: 1em;
+    }
+    .tighten {
+        margin-top: -.8rem;
+
+    }
+    .light-grey-bg {
+        background-color: #F5FFF5;
+    }
+    .my-btns {
+        height: 3rem;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px
+    }
+    </style>
+
+    <nav class="navbar navbar-expand-sm fixed-top navbar-right con-nav" >
+    <a class="navbar-brand" href="index.html"> 
+    <strong class="logo">Connor John Pekovic</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+        
+    <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
+        <div class="collapse navbar-collapse pb-1" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto" style="float: right; color: black;">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><div>Home</div></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="resume-top" href="Resume.pdf" target="_blank"><div>Resume</div></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="spring-transcript-2018.pdf" target="_blank"><div>Transcript</div></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio"><div>Portfolio</div></a>
+                </li>
+
+            </ul>
+        </div>
+    </div> <a href="https://github.com/connorsstash" target="_blank">
+        <button type="button" class="button" style="background-color: #0E6624; margin-right: 7%; width: 4.2rem;">GitHub</button></a>
+    </nav>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body class="con-body">
+    <div class="light-grey-bg">
+        <main role="main" style="margin: 2%; padding-top: 1em">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="banner-3.jpg" alt="name-card" style="max-width: 100%;">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="btn-group-vertical pb-3" style="width: 100%; font-size: 21px;">
+                        <button onclick="window.open('Resume.pdf', '_blank');" id="resume-left" type="button" class="btn btn-secondary" style="height: 3rem; border-top-left-radius: 8px; border-top-right-radius: 8px"><div class="nav-font">Resume</div></button></a>
+                        <button onclick="window.open('spring-transcript-2018.pdf', '_blank');" type="button" class="btn btn-secondary" style="height: 3rem;"><div class="nav-font">College Transcript</div></button>
+                        <button onclick="location.href='#portfolio'" type="button" class="btn btn-secondary" style="height: 3rem; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px"><div class="nav-font">Portfolio</div></button>
+                    </div>
+                    <p class="font-15">Connor John Pekovic<br>
+                    connorpekovic1@gmail.com<br>
+                    815-261-2388<br></p>
+                </div>
+                <div class="col-md-9 pb-1">
+                    <p class="font-15">Thanks for noticing me.  This is my second year and a half studying Computer Science and I've got the hang of 
+                        everything at least a little bit by now. I promise to be a creative, honest, and polite member of your organization after my graduation in December of 2019.</p>
+                    
+                    <p class="font-15" id="portfolio"> For the summer of 2019, I'm looking for a paid position in an organization that does cool stuff or treats me well. 
+                        I'm seeking to use my newly learned computer and project management skills to accomplish organizational goals with dedication and professionalism.
+                    </p>
+                </div>
+            </div> 
+            <hr>
+            <div class="row">
+                <div class="col-2">
+                    <p style="font-size: 2vw; text-align: center;">3.29 GPA</p>
+                </div>
+                <div class="col-6">
+                    <p style="text-align: center; font-size: 2vw">B.A. in&nbsp;Computer&nbsp;Science Enterprise&nbsp;Software</p>
+                </div>
+                <div class="col-4">
+                    <p style="text-align: center; font-size: 2vw">Minor in&nbsp;Business Adminstration</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="top-panel light-grey-bg">
+                <h2>Project History</h2> <hr> 
+                <div class="row p-3">
+                    <div class="col-md-6">
+                        <h5> NIU Resident Hall Webpages</h5>
+                        <img src="hall-pages-1.jpg" class="proj-imgs">
+                        <p class="font-15" style="line-height: 1.4em;">I successfully redesigned and coded the webpages for the N.I.U's five residence halls in accordance with
+                            NIU's marketing standards.
+                        </p>
+                        <ul class="tighten">
+                            <li class="neg-top-margin"><a href="https://www.niu.edu/housing/halls/grant/index.shtml" target="_blank" class="font-15">Grant Towers</a></li>
+                            <li class="neg-top-margin"><a href="https://www.niu.edu/housing/halls/stevenson/index.shtml" target="_blank" class="font-15">Stevenson Towers</a></li>
+                            <li class="neg-top-margin"><a href="https://niu.edu/housing/halls/new-hall/index.shtml" target="_blank" class="font-15">New Hall</a></li>   
+                            <li class="neg-top-margin"><a href="https://www.niu.edu/housing/halls/gilbert/index.shtml" target="_blank" class="font-15">Gilbert Hall</a></li>
+                            <li class="neg-top-margin"><a href="https://www.niu.edu/housing/halls/neptune/index.shtml" target="_blank" class="font-15">Neptune Hall</a></li>
+                        </ul>
+                        <p class="font-15 tighten">In this project I...</p>
+                        <ul class="tighten">
+                            <li class="font-15 neg-top-margin">Drafted design by hand</li>
+                            <li class="font-15">Used Bootstrap CSS framework</li>
+                            <li class="font-15">Used open-source software</li>
+                            <li class="font-15">Expressed NIU's marketing standards</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6"><h5>This Website</h5>
+                        <img src="this-site.jpg" class="proj-imgs"></a>
+                        <p class="font-15">I made this website all by myself without the use of WordPress nor templates demonstrate my web capabilities.</p>
+                        <p class="font-15 neg-top-margin" style="margin-top: -.6em">I wanted to make it fun and easy for potential employers to learn more about me beyond my resume.</p>
+                        <p class="font-15" style="margin-top: -.6em">In this project I...</p>
+                        <ul class="tighten">
+                            <li class="font-15 neg-top-margin">Wrote custom JavaScript</li>
+                            <li class="font-15">Used Bootstrap CSS framework</li>
+                            <li class="font-15">Expresses myself</li>
+                            <li class="font-15">Established a Linux partition on my PC to deploy on Digital Ocean</li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-padding light-grey-bg">
+                <h2>Work History</h2><hr>
+               <ul>
+                   <li class="font-15">Technology Assist. - Social Media and Graphic Design | NIU</li>
+                   <div class="font-13 mrgn-l-r">I redesigned and coded the webpages for NIU's residence halls,
+                        see <a href="#portfolio">above</a>. I authored social media post and created flyers for Housing events using Illustrator.
+                        It'd categorize the experience as marketing.  My greatest takeaway from the experience having my boss educate on about modern website design one-on-one.</div>
+                   <div class="row">
+                       <div class="col-6">
+                            <p class="font-13" style=" margin-bottom: 6px;"> 
+                                <i class="fas fa-caret-right"></i> Contact: Curtis Grimes</p>
+                             <ul>
+                                 <li class="font-13" style="margin-bottom: -5px;">Phone - 815-753-9568</li>
+                                 <li class="font-13">Email - cgrimes@niu.edu</li>
+                             </ul>
+                       </div>
+                       <div class="col-6">
+                            <p class="font-13" style="margin-bottom: 6px;"> 
+                                <i class="fas fa-caret-right"></i><a href="https://niu.edu/housing/about/employment/social-media-design/">
+                                Job Description</a> - On NIU's site</p>
+                       </div>
+                   </div>
+                   <li class="font-15">Sales Representative - Preferred Vendors | Northwest Suburbs</li>
+                   <div class="font-13 mrgn-l-r"> At age 18 I did Door to door sales selling coupon books and newspaper 
+                       subscriptions. I was really good but I left because I deemed it unethical.  I had realizations of what it means to have ethics and the
+                        importance of having hard skills. </div>
+                   <div class="row">
+                       <div class="col-6">
+                            <p class="font-13" style="margin-bottom: 6px;"> 
+                                    <i class="fas fa-caret-right"></i> Contact: Johnny Majcher</p>
+                                 <ul>
+                                     <li class="font-13" style="margin-bottom: -5px;">Phone - 815-903-3281</li>
+                                     <li class="font-13">Email - jmajcher101@gmail.com</li>
+                                 </ul>
+                       </div>
+                       <div class="col-6"></div>
+                   </div>
+               </ul> 
+            </div>
+            <div class="panel-padding light-grey-bg">
+                <h2>Family Work History</h2><hr>
+                    <img src="lineage.jpg" width="100%" height="auto">
+            </div>
+        </div>
+
+        <div class="col-md-6">  <!-- new -->
+            <div class="top-panel light-grey-bg"> <!-- start-->
+                <h2>Skills and Qualities</h2><hr id="react1">
+                <div class="hide-under-1400" id="hide-under-1400">
+                <div class="row p-3">
+                    <div class="tab">
+                        <button class="tablinks" onmouseover="openCity(event, 'ethics')">Upstanding Ethics</button>
+                        <button class="tablinks" onmouseover="openCity(event, 'webdev')">Web Development</button>
+                        <button class="tablinks" onmouseover="openCity(event, 'databases')">Databases</button>
+                        <button class="tablinks" onmouseover="openCity(event, 'cmd')">Command Line</button>
+                        <button class="tablinks" onmouseover="openCity(event, 'project-management')">Project Management and Virtual Teams</button>
+                        <button class="tablinks" onmouseover="openCity(event, 'bus')">Business Literate</button>
+                        <button class="tablinks" onmouseover="openCity(event, 'coms')">Calming Demeanor</button>
+                        <button class="tablinks" onmouseover="openCity(event, 'eager')">Eager to Learn</button>
+                    </div>
+                    
+                    <div id="ethics" class="tabcontent">
+                        <h3>Upstanding Ethics</h3>
+                        <p class="font-13">  My calming demeanor led me to consistently met and exceed sales goals as a Door to Door sales person, but I eventually realized it
+                            wasn't nice to bother people at their homes.</p>
+                        <p class="font-13">  After that in Community College, my humanities courses opened my eyes. I had a great experience reading my philosophy text book front-to-back.
+                            The humanities shaped my world view in a positive way.</p>
+                    </div>
+                      
+                    <div id="webdev" class="tabcontent">
+                        <h3>Web Development</h3>
+                            <p class="font-13"> I hand coded this website without the assistance of templates nor WordPress so demonstrate my ability to do reasonably complex things.</p>
+                            <p class="font-13"> This site is hosted by DigitalOcean, which is a server I interact with though a command line or FTP like FileZilla.</p>
+                            <p class="font-13"> I design with assistance from Bootstrap 4.0 and I can implement JavaScript. In my projects, I've
+                                demonstrated the capability to conform to marketing standards and I follow to w3schools.com web standards to ensure browser compatibility. </p>
+                    </div>
+                      
+                    <div id="databases" class="tabcontent">
+                    <h3>Databases and Servers</h3>
+                    <p class="font-13">I have good understanding about using databases from doing well in my Databases
+                        class at NIU. In regards to servers, I'm new but I successfully used a virtual private server to host this site, Digital Ocean, which 
+                        I have to SSH into off a UNIX command line to maintain.</p>
+                    <p class="font-13">Currently for a class project, I'm using SQL, PHP, and HTML to build a website that interacts with the school's database.
+                        I did a project like this last year that's on my GitHub, but after this project I should have the process down pat.
+                    </p>
+                    </div>
+                      
+                    <div id="cmd" class="tabcontent">
+                    <h3>Linux/UNIX Command Line</h3>
+                    <p class="font-13">I have moderate understanding about using the command line. I received an A for my <i>Linux/UNIX System</i>
+                            class at NIU.</p>
+                    <p class="font-13"> With NIU, I used PowerShell to render 360 photos for the web because the university doesn't want Linux partitions on their 
+                        computers. </p> 
+                    <p class="font-13">For this website, I established a Ubuntu partition on my PC to interact with the server at DigitalOcean to get a really good deal on web hosting.</p>
+                    </p>
+                    </div>
+
+                    <div id="project-management" class="tabcontent">
+                        <h3>Project Management and Virtual Teams</h3>
+                        <p class="font-13">For the three months, my superior taught me modern web design over Microsoft SharePoint, Teams, and GitLab.
+                            Now I know my way around virtual team software and I've seen how to use comment mark up to it's fullest advantage.
+                        </p>
+                        <p class="font-13">I like virtual teams because everyone gets more time to digest big thoughts and contribute more thought-out responses.</p>
+                        <p class="font-13">On the other hand, I acknowledge one-on-one is more effective.</p>
+                    </div> 
+
+                    <div id="bus" class="tabcontent">
+                    <h3>Business Literate</h3>
+                    <p class="font-13"> I'll graduate with a Minor in Business Administration from the well renowned NIU College of Business. To get a Minor I took:
+                        <ul>
+                            <li class="font-13">Principals of Accounting</li>
+                            <li class="font-13">Principals of Management</li>
+                            <li class="font-13">Principals of Marketing</li>
+                            <li class="font-13">Principals of Operation Management</li>
+                        </ul>
+                        <p class="font-13">This isn't enough training to make a business all-star right out of college, but it's a good start.</p>
+                    </p>
+                    </div>
+
+                    <div id="coms" class="tabcontent">
+                        <h3>Calming Demeanor</h3>
+                        <p class="font-13">I inherited my mothers wide vocabulary and I make an effort to sound educated without overcomplicating the point.
+                            I've repeatedly shown the ability to maintain composer when discussing details of large projects.</p>
+                        <p class="font-13">At 18, when I was doing Door to door sales, I can truly say no one raised their voice with me at their from door. In fact, I had
+                            a lot of really interesting conversations with some really smart people.
+                            My co-workers weren't as lucky.</p>
+                    </div>
+
+                    <div id="eager" class="tabcontent">
+                        <h3>Eager to Learn</h3>
+                        <p class="font-13">I like the process of learning a new system and giving problems the old college try. I don't lock-up in the face of confusion,
+                            instead I become investigative.</p>
+                        <p class="font-13"> Since I was 19 I've always been on a chase to learn to use some complex new software. Starting with Illustrator, then 
+                            Abelton, now I'm into coding because of the influence from school.  I'm in a never ending chase
+                            to harness the power of computers to capture peoples attention in hopes of being able to influence people for good. </p>
+                     </div>
+                </div>
+                </div>
+
+                <!-- This is the Skills and Abilities section that displays on tablets and smart phones. -->
+                <div id="show-under-1400">
+                    <h6 class="pt-1">Upstanding Ethics</h6>
+                        <li class="font-13">My calming demeanor led me to consistently met and exceed sales goals when working Door to Door sales. Then in community college, I was
+                            influenced by my humanities as it shaped my world view in a positive way.</li>
+                    <h6 class="pt-1">Web Development</h6>
+                        <li class="font-13">I made this website mobile friendly with the skills I learned from the Hall Pages project I completed this summer for NIU's Housing Department. </li>
+                    <h6 class="pt-1">Databases and Servers</h6>
+                        <li class="font-13"> In regards to servers, I'm new but I successfully used a virtual private server to host this site, Digital Ocean, which 
+                            I have to SSH into off a UNIX command line to maintain.  In regards to databases, I do projects for NIU interacting with the school's
+                            databases with SQL and PHP in many of my classes.</li>
+                    <h6 class="pt-1">Command Line</h6>
+                        <li class="font-13"> I'm an above average user of the UNIX command prompt and PowerShell command prompt for Windows.</li>
+                    <h6 class="pt-1">Project Management and Virtual Teams</h6>
+                        <li class="font-13"> This Summer of 2018, I experienced working on a large website project in a virtual team with my superior to communicate the direction
+                             of the project. </li>
+                    <h6 class="pt-1">Business Literate</h6>
+                        <li class="font-13">I have a minor in Business Administration from the accredited NIU School of Business.</li>
+                    <h6 class="pt-1">Calming Demeanor</h6>
+                        <li class="font-13">Proven, effective written and verbal communication skills for requirements gathering.  Ability to listen to technical topics and I can 
+                            simplify concepts and respond appropriately.</li>
+                    <h6 class="pt-1">Eager to Learn</h6>
+                        <li class="font-13">I like the process of learning a new system and giving problems the old college try. I don't lock-up in the face of confusion,
+                                instead I become investigative.</li>
+                </div> 
+            </div>
+
+            <div class="panel-padding h2ght-grey-bg">
+                <h2>Certifications</h2><hr>
+                <p class="font-15">View my official Lynda.com certifications  <a href="https://www.lynda.com/AllCertificates/User/11377596"> here</a>,
+                     which is an accredited online learning platform owned by LinkedIn. In summary, the certification titles are:</p>
+                <ul>
+                    <li class="font-15">HTML Essential Training</li>
+                    <li class="font-15">Web Development Foundations: Full-Stack vs. Front-End</li>
+                    <li class="font-15">JavaScript Essential Training</li>
+                    <li class="font-15">Java 8 Essential Training</li>
+                    <li class="font-15">Git Essential Training</li>
+                    <li class="font-15">C++ Pointers</li>
+                </ul>  
+            </div>
+
+            <div class="panel-padding light-grey-bg">
+                <h2>Books I've read</h2><hr>
+                <ul>
+                    <li><i class="font-15">How to Win Friends and Influence People</i> by Dale Carnegie</li>
+                        <ul>
+                            <li class="font-15"style="margin-top: .5em;">Self-help book that covers techniques for handling people. It helped me preform better as a
+                                Door to Door salesperson. </li>
+                        </ul>
+                    <li><i class="font-15">Jack: Straight from the Gut</i> by Jack Welch</li>
+                        <ul>
+                            <li class="font-15" style="margin-top: .5em;">Former General Electric CEO surveys his career and his rise to the top of America's largest corporation. 
+                                He discusses the importance of values, candor, differentiation, and voice and dignity for all.</li>
+                        </ul>
+                    <li><i class="font-15">Social and Political Philosophy: Readings from Plato to Gandhi.</i></li>
+                        <ul>
+                            <li class="font-15"style="margin-top: .5em;">It's a collection secular societies dearest passages,  I read this book front-to-back
+                                 and it had a positive impact on my world view. Below are the 3 parts I align my views with the most.</li>
+                                 <ul class="font-15" style="margin-top: .2em;">
+                                     <li class="font-15">John Dewey: Restructuring of Philosophy</li>
+                                     <li class="font-15">Jean Jacques Rousseau: The Social Contract</li>
+                                     <li class="font-15">Niccolo Machiavelli: The Prince</li>
+                                 </ul>
+                        </ul>
+                </ul>
+            </div>
+            <div class="panel-padding light-grey-bg">
+                <h2>Poised to Learn Next</h2><hr>
+                    <p class="font-15"> Things I want to do next with my education.  This gives insight to where my mind is at.</p>
+                    <ul class="font-15" style="margin-top: .2em;">
+                        <li class="font-15">Code a news network out of websites and apps, then recruit my peers to assist me in making unbiased content</li>
+                        <li class="font-15">Learn how to use <a href="https://www.blender.org/features/">Blender</a> 3D creation suite </li>
+                        <li class="font-15">Learn how to use OMG UML 2.0</li>
+                        <li class="font-15">Design homes in 3D</li>
+                        <li class="font-15">Learn Colbol and Perl after I get a grip on Assembly Language this fall </li>
+                    </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+    </div> <!-- End of row,-->
+</body>
+<script src="skill-detail.js"></script>
+<script>
+   $(document).ready(function(){
+    if ($(window).width() < 1400) {
+        $("#hide-under-1400").remove();
+    }
+
+    if ($(window).width() >= 1400) {
+        $("#show-under-1400").remove();
+    }
+    
+});
+</script>
+</html>
