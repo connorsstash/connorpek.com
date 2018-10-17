@@ -1,2 +1,2 @@
 # connorpek.com
-The files that make uomy resume website visable at connorpek.com as of OCtober 16th
+The files that make up my resume website visable at connorpek.com that I manage full stack.
